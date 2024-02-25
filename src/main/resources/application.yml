@@ -8,13 +8,6 @@ spring:
   application:
     name: ACCOUNT-SERVICE
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: ${SERVICE_REGISTRY_URL}/eureka
-
 app:
   mqtt:
     broker: ${MQTT_BROKER}
